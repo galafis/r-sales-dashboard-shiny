@@ -1,0 +1,81 @@
+/* Estilos customizados para o Dashboard de Vendas */
+/* Custom styles for Sales Dashboard */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.content-wrapper {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.sidebar h3, .sidebar h4 {
+    color: #ffffff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.main-header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.metric-box {
+    background-color: #e9ecef;
+    border-left: 4px solid #007bff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.tab-content {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.plot-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin: 15px 0;
+}
+
+.table-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin: 15px 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .content-wrapper {
+        margin: 5px;
+        padding: 10px;
+    }
+    
+    .main-header {
+        padding: 15px;
+    }
+}
+
