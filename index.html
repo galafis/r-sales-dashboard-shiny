@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Vendas E-commerce - Gabriel Demetrios Lafis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dashboard de Vendas E-commerce</h1>
+            <p>Análise Interativa de Dados de Vendas</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#overview">Visão Geral</a></li>
+                <li><a href="#features">Funcionalidades</a></li>
+                <li><a href="#tech-stack">Tecnologias</a></li>
+                <li><a href="#installation">Instalação</a></li>
+                <li><a href="#demo">Demonstração</a></li>
+                <li><a href="https://github.com/galafis/r-sales-dashboard-shiny" target="_blank">Repositório GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="overview" class="container">
+            <h2>Visão Geral do Projeto</h2>
+            <p>Este projeto apresenta um <strong>dashboard interativo completo</strong> desenvolvido em R e Shiny para análise abrangente de dados de vendas de e-commerce. A aplicação demonstra competências avançadas em análise de dados, visualização interativa, desenvolvimento web com Shiny, Business Intelligence e processamento de dados.</p>
+            <p>O objetivo é fornecer uma ferramenta prática para análise de vendas, implementar boas práticas de desenvolvimento e documentação, e oferecer insights acionáveis para a tomada de decisões empresariais.</p>
+        </section>
+
+        <section id="features" class="container">
+            <h2>Funcionalidades Principais</h2>
+            <ul>
+                <li><strong>Dashboard Principal:</strong> KPIs dinâmicos (vendas totais, ticket médio, conversão), gráficos interativos, métricas de performance e alertas inteligentes.</li>
+                <li><strong>Análise Temporal:</strong> Séries temporais de vendas, identificação de sazonalidade, análise de tendências e previsões.</li>
+                <li><strong>Análise de Produtos:</strong> Performance por categoria, análise ABC, margem de lucro e ciclo de vida dos produtos.</li>
+                <li><strong>Análise Geográfica:</strong> Vendas por região, mapas interativos e comparação entre regiões.</li>
+                <li><strong>Análise de Clientes:</strong> Segmentação RFM, Lifetime Value, Churn Analysis e padrões de compra.</li>
+                <li><strong>Relatórios e Exportação:</strong> Geração de relatórios em PDF, exportação de dados (CSV, Excel, JSON) e agendamento de relatórios.</li>
+            </ul>
+        </section>
+
+        <section id="tech-stack" class="container">
+            <h2>Stack Tecnológico</h2>
+            <p>O dashboard foi construído utilizando as seguintes tecnologias:</p>
+            <ul>
+                <li><strong>R 4.1+:</strong> Linguagem principal para análise estatística.</li>
+                <li><strong>Shiny:</strong> Framework para aplicações web interativas.</li>
+                <li><strong>shinydashboard:</strong> Interface de dashboard profissional.</li>
+                <li><strong>plotly:</strong> Gráficos interativos e responsivos.</li>
+                <li><strong>DT:</strong> Tabelas interativas com funcionalidades avançadas.</li>
+                <li>Outros pacotes R para manipulação de dados (dplyr, tidyr, lubridate), análise estatística (ggplot2, forecast, corrplot) e UI/UX (shinyWidgets, shinycssloaders).</li>
+            </ul>
+        </section>
+
+        <section id="installation" class="container">
+            <h2>Instalação e Uso</h2>
+            <p>Para executar o dashboard localmente, siga os passos:</p>
+            <ol>
+                <li>Clone o repositório: <code>git clone https://github.com/galafis/r-sales-dashboard-shiny.git</code></li>
+                <li>Navegue até o diretório: <code>cd r-sales-dashboard-shiny</code></li>
+                <li>Instale as dependências R (se necessário): <code>install.packages(c("shiny", "shinydashboard", "plotly", ...))</code></li>
+                <li>Execute a aplicação no RStudio ou via console R: <code>shiny::runApp()</code></li>
+            </ol>
+            <p>Para mais detalhes, consulte o <a href="https://github.com/galafis/r-sales-dashboard-shiny/blob/main/README.md" target="_blank">README.md</a> do repositório.</p>
+        </section>
+
+        <section id="demo" class="container">
+            <h2>Demonstração</h2>
+            <p>Abaixo, algumas imagens e um vídeo (em breve) demonstrando o dashboard em funcionamento.</p>
+            <div class="image-gallery">
+                <img src="images/dashboard_main.png" alt="Dashboard Principal" class="responsive-img">
+                <img src="images/dashboard_temporal.png" alt="Análise Temporal" class="responsive-img">
+                <img src="images/dashboard_regional.png" alt="Análise Regional" class="responsive-img">
+            </div>
+            <p><em>(Imagens meramente ilustrativas. O dashboard real é interativo e dinâmico.)</em></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Gabriel Demetrios Lafis. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
