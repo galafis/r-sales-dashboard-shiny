@@ -27,6 +27,23 @@ Este projeto apresenta um **dashboard interativo completo** desenvolvido em R e 
 - 📊 **Business Intelligence**: KPIs, métricas e insights de negócio
 - 🔄 **Processamento de Dados**: ETL e transformação de dados em tempo real
 
+### Fluxo da Aplicação
+
+```mermaid
+flowchart LR
+    A[Dados de Vendas\nCSV / Banco de Dados] --> B[Processamento R\ndplyr / tidyr / lubridate]
+    B --> C[Métricas KPI\nReceita / Ticket Médio / Conversão]
+    C --> D[Gráficos / Tabelas\nplotly / DT / ggplot2]
+    D --> E[Dashboard Shiny\nshinydashboard]
+    E --> F[Interação do Usuário\nFiltros / Drill-down / Exportação]
+
+    subgraph Análise
+        B
+        C
+        D
+    end
+```
+
 ### 🎯 Objetivos do Projeto
 
 - **Demonstrar competências técnicas** em R, Shiny e análise de dados
@@ -335,6 +352,23 @@ This project presents a **complete interactive dashboard** developed in R and Sh
 - 🌐 **Web Development**: Modern and intuitive interface with Shiny
 - 📊 **Business Intelligence**: KPIs, metrics, and business insights
 - 🔄 **Data Processing**: Real-time ETL and data transformation
+
+### Application Flow
+
+```mermaid
+flowchart LR
+    A[Sales Data\nCSV / Database] --> B[R Processing\ndplyr / tidyr / lubridate]
+    B --> C[KPI Metrics\nRevenue / Avg Ticket / Conversion]
+    C --> D[Charts / Tables\nplotly / DT / ggplot2]
+    D --> E[Shiny Dashboard\nshinydashboard]
+    E --> F[User Interaction\nFilters / Drill-down / Export]
+
+    subgraph Analysis Engine
+        B
+        C
+        D
+    end
+```
 
 ### 🎯 Project Objectives
 
